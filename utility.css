@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+
+:root{
+    --purple : #3D0659;
+    --font-poppins: 'Poppins', sans-serif;
+    --purple2 : #3d0659b9;
+}
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.flex-gap{
+    gap: 60px;
+}
+.align-center{
+    align-items: center;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    /* background-color: aqua; */
+}
+h5{
+    font-size: 16px;
+    font-family: var(--font-poppins);
+    font-weight: 400;  
+}
+h2{
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.primary-button{
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.p-one{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 500;
+}
+.p-two{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 600;
+}
+.p-three{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 500;
+}
+.p-four{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 500;
+}
+.w-50{
+    width: 50%;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.153);
+    margin-right: 100px;
+    position: relative;
+    
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: none;
+}
+h4{
+    font-size: 16px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-dots li{
+    display : inline-block;
+    margin: 0px 5px;
+}
+.slick-dots li button{
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3d06597b;
+    border: none;
+}
+.slick-dots .slick-active button{
+    background-color: #3D0659;
+    width: 10px;
+    height: 10px;
+}
